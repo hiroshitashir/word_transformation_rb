@@ -1,0 +1,9 @@
+*.rbc
+*.bundle
+*.o
+*.so
+Makefile
+.DS_Store
+doc
+pkg
+*#

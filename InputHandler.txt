@@ -1,0 +1,10 @@
+require 'State'
+
+class InputHandler
+	def initialize(arg_fname, arg_start_st, arg_end_st)
+		@filename = args[0]
+		@start_st = State.new(arg_start_st)
+		@end_st = State.new(arg_end_st)
+	end
+	
+	
